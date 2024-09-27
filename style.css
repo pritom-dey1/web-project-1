@@ -1,0 +1,87 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,body{
+ height: 100%;
+ width: 100%;
+}
+
+  
+.nav{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.po{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+.one{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
+}
+.ri-menu-2-line{
+  border: 1px;
+      border-color: black;
+         border: solid;
+      border-radius: 14px;
+  padding: 5px;
+}
+.two h2{
+  text-transform: uppercase;
+  font-size: 30px;
+  
+}
+.three button{
+  padding: 7px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+img{
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 20px;
+ 
+}
+.z{
+  transform: translate(-50%,-50%) rotate(-40deg);
+}
+.x{
+  transform: translate(-50%,-50%) rotate(-30deg);
+}
+.c{
+  transform: translate(-50%,-50%) rotate(-20deg);
+}
+.v{
+  transform: translate(-50%,-50%) rotate(0deg);
+}
+h5{
+  position: absolute;
+  bottom: 0%;
+  left: 1%;
+  padding: 25px;
+  font-size: 20px;
+}
+.foot{
+  position: absolute;
+  bottom: 0%;
+  right: 1%;
+  padding: 25px;
+  font-size: 30px;
+}
